@@ -1,0 +1,21 @@
+body {
+    max-width: 900px;margin:auto;
+}
+.menu {
+    margin-bottom:10px;background-color: #ffffff;
+}
+.menu a:hover{
+    color:red;
+}
+#data_mhs{
+    margin: 0;
+}
+.footer {
+    margin-top: 10px;border-top: 1px solid;background: black;color: white;
+}
+.content{
+    overflow:auto;padding-top: 15px; border-top: 1px solid;
+}
+.h1{
+    margin: bottom 100px;background-color:black;color:white;
+}
