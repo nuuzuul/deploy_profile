@@ -1,11 +1,10 @@
-runtime: python27
+runtime: php55
 api_version: 1
 threadsafe: true
 
 handlers:
 - url: /
-  static_files: www/tentang.php
-  upload: www/tentang.php
+  script: www/tentang.php
 
 - url: /(.*)
   static_files: www/\1
